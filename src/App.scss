@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+}
+.foreground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 100vh;
+  z-index: 10;
+  background-color: black;
+}
+.top {
+  background-color: blue;
+}
+.bottom {
+  background-color: red;
+}
